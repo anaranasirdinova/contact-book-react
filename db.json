@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "firstName": "Sam",
+      "lastName": "Miller",
+      "phoneNumber": "5687854",
+      "id": 1
+    },
+    {
+      "firstName": "John ",
+      "lastName": "Scott",
+      "phoneNumber": "877979",
+      "id": 2
+    },
+    {
+      "firstName": "David",
+      "lastName": "Black",
+      "phoneNumber": "494240585",
+      "id": 3
+    },
+    {
+      "firstName": "Kate ",
+      "lastName": "Watson",
+      "phoneNumber": "65765345",
+      "id": 4
+    }
+  ]
+}

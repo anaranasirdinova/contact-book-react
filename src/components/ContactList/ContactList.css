@@ -1,0 +1,36 @@
+.contact-list {
+    width: 320px;
+    margin: 50px 0;
+    text-align: center;
+}
+.contact-list .contact-info {
+    background-color:#fbe5bb;
+    border: 2px solid hsl(44, 90%, 54%);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contact-list .contact-info li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.contact-list .contact-info li:nth-child(3) {
+    margin-bottom: 10px;
+}
+.contact-list .contact-info .contact-delete-btn, 
+.contact-list .contact-info .contact-update-btn {
+    border: 0;
+    background-color: rgb(243, 57, 54);
+    color: white;
+    padding: 8px 15px;
+}
+.contact-list .contact-info .contact-update-btn {
+    background-color: hsl(135, 83%, 40%);
+    margin-right: 10px;
+}
+.contact-list .contact-info .contact-delete-btn:hover {
+    background-color: #790f0d;
+}
+.contact-list .contact-info .contact-update-btn:hover {
+    background-color: #126b49;
+}

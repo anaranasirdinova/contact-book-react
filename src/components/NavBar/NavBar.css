@@ -1,0 +1,28 @@
+.nav-bar {
+    padding: 10px;
+    background-color: grey;
+}
+.nav-bar .nav-links {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-bar .nav-links > li {
+    margin-right: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.nav-bar .nav-links > li:hover {
+    background-color: #fff;
+}
+.nav-bar .nav-links > li > a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+}
+.nav-bar .nav-links > li:hover > a {
+    color: black;
+}
