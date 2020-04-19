@@ -8,32 +8,7 @@ import UpdateContact from '../UpdateContact/UpdateContact';
 class App extends Component {
 
   state = {
-    data: [
-      {
-        "firstName": "Jack",
-        "lastName": "Smith",
-        "phoneNumber": "877474538",
-        "id": 1
-      },
-      {
-        "firstName": "Kate",
-        "lastName": "Watson",
-        "phoneNumber": "53434563",
-        "id": 2
-      },
-      {
-        "firstName": "Sam",
-        "lastName": "Miller",
-        "phoneNumber": "53466563",
-        "id": 3
-      },
-      {
-        "firstName": "John ",
-        "lastName": "Scott",
-        "phoneNumber": "676786",
-        "id": 4
-      }
-    ],
+    data: [],
     updateIndex: null,
     isToUpdate: false
   };
